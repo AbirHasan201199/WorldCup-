@@ -1,0 +1,228 @@
+/* top-portion design */
+.top-container{
+    height:646px;
+    width: 1321px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 36px;
+
+
+}
+.img-design img{
+    width: 581px;
+    height: 613px;
+    padding-top: 30px;
+}
+.text-design{
+    width: 531px;
+height: 424px;
+
+}
+.text-design h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+
+}
+.text-design p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.text-design button{
+    width: 187px;
+height: 56px;
+text-decoration: none;
+background-color: red;
+padding: 16px 25px;
+border-radius: 5px;
+gap: 10px
+;
+
+}
+.text-design button a{
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+}
+
+/* Middle-container Design */
+.middle-container{
+    margin-top: 130px;
+    display: flex;
+    margin: 130px  300px;
+    
+}
+.left-bar{
+    height: 312px;
+    width:312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: black;
+    border-radius: 10px;
+
+}
+.btn{
+    width: 252px;
+    height: 64px;
+    background: white;
+    border-radius: 6px;
+    border-radius: 10px;
+    margin-left: 25px;
+   
+   
+}
+
+.btn a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+ #last-btn{
+    background: red;
+    color: white;
+}
+#last-btn a{
+    color:whitesmoke}
+
+
+
+    .player-info{
+    width: 312px;
+    height: 362px;
+    box-shadow: 5px 10px whitesmoke;
+    }
+    .grid-info{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin-left: 30px;
+    }
+    .player-info img{
+    width: 312px;
+    height: 175px;
+    }
+    .player-info span{
+        display: flex;
+        justify-content: space-around;
+    }
+    /* bottom design */
+    /* bottom-design */
+   .bottom-container{
+    background: black;
+    width: 100%;
+    height: 27.75rem;
+    color: white;
+    
+
+    border-radius: 10px;
+    
+   }
+  .footer-design ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+  .goal{
+    /* display: flex;
+    justify-content: center */
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 2.8rem;
+line-height: 4rem;
+
+margin: 130px 752px 254px 753px;
+
+  }
+  .footer-design ul li {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 1.5rem;
+  }
+ 
+.footer-design ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* media query check */
+@media screen and (min-width: 375px) and (max-width:834px){
+    .top-container{
+        width: 734px;
+        height: 398px; 
+           
+    }
+    .text-design {
+    width: 316px;
+    height: 276px;
+
+    }
+    .text-design h1
+     {
+    width: 289px;
+    height: 150px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
+
+    }
+    .text-design p{
+     font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    }
+     
+    .img-design img{
+    width: 323px;
+    height: 340px;}
+    .text-design button{
+    width: 161px;
+    height: 48px;
+    
+        }
+    .text-design button a{
+        font-size: 12px; 
+    }
+    .left-bar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        background: none;
+        
+
+    }
+    .btn{
+    width: 230px;
+    height: 64px;
+    background: white;
+    }
+    .middle-container{
+        display: block;
+        
+    }
+    .grid-info{
+        grid-template-columns: repeat(2,1fr); 
+    }
+    .player-info img{
+        width: 357px;
+        height: 200px;
+    }
+    .player-info{
+    width: 357px;
+    height: 200px;
+    }
+}
